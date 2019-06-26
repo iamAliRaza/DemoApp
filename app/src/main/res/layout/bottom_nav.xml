@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="5"
+    android:gravity="bottom"
+    android:layout_gravity="bottom"
+    android:backgroundTint="#B3000000"
+    android:backgroundTintMode="src_over"
+    android:layout_alignParentBottom="true"
+    android:paddingBottom="5dp"
+    android:background="@drawable/bottombackgroundshade"
+    android:layout_height="70dp">
+
+    
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/iconordernormal"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/app_name" />
+    
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="0.5dp"
+        android:layout_height="15dp"
+        android:background="#fff"/>
+
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/iconcartnormal"
+        android:layout_width="0dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/app_name" />
+
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="0.5dp"
+        android:layout_height="15dp"
+        android:background="#fff"/>
+
+
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/icontracknormal"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:contentDescription="@string/app_name" />
+
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="0.5dp"
+        android:layout_height="15dp"
+        android:background="#fff"/>
+
+
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/iconloyalitynormal"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/app_name" />
+
+    <View
+        android:layout_gravity="bottom"
+        android:layout_width="0.5dp"
+        android:layout_height="15dp"
+        android:background="#fff"/>
+
+
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/iconprofilenormal"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/app_name" />
+
+</LinearLayout>
